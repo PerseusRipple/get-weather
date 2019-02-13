@@ -58,12 +58,23 @@ body {
 }
 
 .weather {
+  
+  justify-content: center;
+  width: 100%;
+  padding: 5rem;
+  
+
+
 }
 
 .footer {
   border: 0.75rem solid orange;
   display: flex;
-  justify-content: center;
+  justify-content: baseline;
+  align-items: center; 
+  font-size: 1.5rem;
+  margin-top: 30rem;
+  padding: 0.5rem;
   width: 100%;
 }
 
@@ -79,4 +90,9 @@ body {
   .header {
     font-size: 3rem;
   }
+
+  .footer {
+    width: auto, 0;
+   font-size: 2rem;
+
 }
